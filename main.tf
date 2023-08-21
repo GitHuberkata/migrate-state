@@ -28,7 +28,7 @@ resource "aws_instance" "VM" {
   ami = data.aws_ami.ubuntu.id
   key_name = data.aws_key_pair.search_for_key_pair.key_name
 tags = {
-  Name = "testVMs"
+  Name = "testVMs-10"
 }
 }
 
